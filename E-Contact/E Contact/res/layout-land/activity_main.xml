@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/police_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:onClick="onClick"
+        android:text="@string/police" />
+
+    <Button
+        android:id="@+id/sos_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/sos" />
+
+    <Button
+        android:id="@+id/hospital_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/hospital" />
+
+    <Button
+        android:id="@+id/ambulance_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="120dp"
+        android:onClick="onClick"
+        android:text="@string/ambulance" />
+
+    <Button
+        android:id="@+id/bloodbank_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/blood_Bank" />
+
+    <Button
+        android:id="@+id/emergencycontact_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="120dp"
+        android:onClick="onClick"
+        android:text="@string/emergency_Contact" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/settings" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="120dp"
+        android:onClick="onClick"
+        android:text="@string/home" />
+    
+    <Button 
+        android:id="@+id/firestation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="195dp"
+        android:onClick="onClick"
+        android:text="@string/fire_station" />
+
+</RelativeLayout>

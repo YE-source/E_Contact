@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fare_check_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+	<fragment
+	    android:id="@+id/map"
+	    android:layout_width="278dp"
+	    android:layout_height="match_parent"
+	    class="com.google.android.gms.maps.SupportMapFragment" />
+
+	<ListView
+	    android:id="@+id/listView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	</ListView>
+
+</LinearLayout>
+
+    
